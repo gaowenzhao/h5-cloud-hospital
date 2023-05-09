@@ -1,0 +1,22 @@
+.user-inquiry-history {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #f2f2f6;
+  .adm-tabs-header{
+    background-color: white;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    .adm-tabs-tab{
+      color: rgba(23,26,29,0.6);
+      padding-top: 11px;
+      padding-bottom: 11px;
+      line-height: 22px;
+    }
+    .adm-tabs-tab-active{
+      color: #171A1D;
+      font-weight: 600;
+    }
+  }
+}

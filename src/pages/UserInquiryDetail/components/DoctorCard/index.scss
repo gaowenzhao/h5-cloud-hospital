@@ -1,0 +1,126 @@
+.doctor-card-contain {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 12px;
+  .doctor-card {
+    display: flex;
+    .doctor-image {
+      border-radius: 8px;
+      border: 1px solid #dddddd;
+    }
+    .doctor-info {
+      display: flex;
+      flex-direction: column;
+      margin-left: 12px;
+      flex: 1;
+      overflow: hidden;
+      .doctor-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .doctor-name {
+          font-size: 15px;
+          font-weight: 600;
+          color: #171a1d;
+          line-height: 22px;
+        }
+        .doctor-level {
+          font-size: 12px;
+          font-weight: 600;
+          color: #007fff;
+          line-height: 18px;
+          margin-left: 16px;
+        }
+        .doctor-label {
+          width: 20px;
+          height: 16px;
+          font-size: 10px;
+          font-weight: 400;
+          color: #00b042;
+          line-height: 16px;
+          margin-left: 8px;
+        }
+      }
+      .doctor-center {
+        font-size: 14px;
+        font-weight: 400;
+        color: #171a1d;
+        line-height: 22px;
+        margin-top: 6px;
+      }
+      .doctor-bottom {
+        margin-top: 12px;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(23, 26, 29, 0.4);
+        line-height: 22px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+  .doctor-introduce {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(23, 26, 29, 0.4);
+    line-height: 22px;
+    margin-top: 8px;
+  }
+  .doctor-bottom {
+    display: flex;
+    align-items: center;
+    .project-price {
+      margin-left: 4px;
+      font-size: 17px;
+      font-weight: 600;
+      color: #ff5219;
+      line-height: 22px;
+    }
+    .inquiry-count {
+      height: 22px;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(23, 26, 29, 0.6);
+      line-height: 22px;
+      margin-left: 16px;
+    }
+  }
+}
+.inquiry_comment_popu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  .comment_popu_header {
+    display: flex;
+    justify-content: center;
+    padding: 11px;
+    .icon_close {
+      position: absolute;
+      left: 12px;
+    }
+    .comment_popu_title {
+      font-size: 15px;
+      font-weight: 600;
+      color: #171a1d;
+      line-height: 22px;
+    }
+  }
+  .comment_popu_stars {
+    margin-top: 40px;
+    display: flex;
+    .comment-star-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 32px;
+      .comment-item-text {
+        margin-top: 16px;
+      }
+    }
+    .comment-star-item:first-child {
+      margin-left: 0;
+    }
+  }
+}

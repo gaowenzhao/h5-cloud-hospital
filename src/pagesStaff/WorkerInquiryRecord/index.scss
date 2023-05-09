@@ -1,0 +1,23 @@
+.worker-inquiry-record {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #f6f8fa;
+
+  .adm-tabs-header{
+    background-color: white;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    .adm-tabs-tab{
+      color: #A7A7A7;
+      padding-top: 11px;
+      padding-bottom: 11px;
+      line-height: 22px;
+    }
+    .adm-tabs-tab-active{
+      color: #33AFFF;
+      font-weight: 600;
+    }
+  }
+}

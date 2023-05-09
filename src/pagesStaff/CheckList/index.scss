@@ -1,0 +1,15 @@
+.check-list {
+  background: #f6f8fa;
+  height: 100%;
+  min-height: 100vh;
+  padding: 16px;
+  .adm-list-body {
+    background-color: #ffffff;
+    border-radius: 10px;
+    .adm-list-item {
+      .adm-list-item-content {
+        border-bottom: 1px solid #f2f2f2;
+      }
+    }
+  }
+}

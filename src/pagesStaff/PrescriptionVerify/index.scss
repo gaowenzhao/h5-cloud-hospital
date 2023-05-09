@@ -1,0 +1,15 @@
+.PrescriptionVerify {
+  .adm-tabs-header {
+    border-bottom: 0;
+  }
+  .adm-tabs-tab {
+    color: $color-171a1d99;
+  } 
+  .adm-tabs-tab-active{
+    color: $color-33afff;
+  }
+  .adm-tabs-tab-line {
+    width: var(--fixed-active-line-width, 20px) !important;
+    background-color:$color-33afff;
+  }
+}

@@ -1,0 +1,20 @@
+.ChooseOffices {
+  .adm-side-bar-item-active {
+    color: $color-171a1d;
+    background-color: $color-ffffff;
+    font-weight: bolder;
+    .adm-side-bar-item-highlight {
+      background-color: $color-ffffff;
+    }
+  }
+  .adm-side-bar-item {
+    border-radius: 0px 24px 24px 0px;
+    height: 88px;
+  }
+  .adm-side-bar-item:first-child {
+    border-radius: 0px 0px 24px 0px;
+  }
+  .adm-side-bar-item:last-child {
+    border-radius: 0px 24px 0px 0px;
+  }
+}

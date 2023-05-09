@@ -1,0 +1,32 @@
+.inquiry-info-items {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 12px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .card-item-left {
+    display: flex;
+    align-items: center;
+    .card-item-title {
+      font-size: 17px;
+      font-weight: 600;
+      color: #171a1d;
+      line-height: 24px;
+    }
+    .card-item-default {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(23, 26, 29, 0.4);
+      line-height: 22px;
+      margin-left: 36px;
+    }
+  }
+}

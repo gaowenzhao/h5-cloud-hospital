@@ -1,0 +1,171 @@
+.inquiry-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  position: relative;
+  .doctor-info-contain {
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    .doctor-image {
+      border-radius: 8px;
+      border: 1px solid #dddddd;
+    }
+    .doctor-info {
+      display: flex;
+      flex-direction: column;
+      margin-left: 12px;
+      flex: 1;
+      overflow: hidden;
+      .doctor-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .doctor-name {
+          font-size: 15px;
+          font-weight: 600;
+          color: #171a1d;
+          line-height: 22px;
+        }
+        .doctor-level {
+          font-size: 12px;
+          font-weight: 600;
+          color: #007fff;
+          line-height: 18px;
+          margin-left: 10px;
+        }
+        .doctor-label {
+          width: 20px;
+          height: 16px;
+          font-size: 10px;
+          font-weight: 400;
+          color: #00b042;
+          line-height: 16px;
+          margin-left: 8px;
+          border: 1px solid rgba(0, 176, 66, 0.48);
+          border-radius: 4px;
+          padding-left: 2px;
+          padding-right: 2px;
+        }
+        .inquiry-status {
+          border-radius: 4px;
+          padding: 3px 6px;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 22px;
+        }
+        .inquiry-status-ing {
+          background: rgba(0, 176, 66, 0.12);
+          color: #00b042;
+        }
+        .inquiry-status-comment {
+          background: #e0efff;
+          color: #007fff;
+        }
+        .inquiry-status-finish {
+          background: rgba(126, 134, 142, 0.16);
+          color: #c1c1c4;
+        }
+        .inquiry-status-to-start {
+          background: rgba(126, 134, 142, 0.16);
+          color: #171a1d;
+        }
+      }
+      .doctor-center {
+        font-size: 14px;
+        font-weight: 400;
+        color: #171a1d;
+        line-height: 22px;
+        margin-top: 6px;
+      }
+      .doctor-bottom {
+        margin-top: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(23, 26, 29, 0.4);
+        line-height: 22px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 210px;
+      }
+    }
+  }
+  .doctor-evaluation {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    margin-top: 8px;
+    .visits-count {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(23, 26, 29, 0.6);
+      line-height: 22px;
+      margin-left: 26px;
+    }
+  }
+  .order-doctor-info-inquiring {
+    border-top: 1px solid rgba(126, 134, 142, 0.16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    margin-top: 8px;
+    .order-doctor-info-left {
+      display: flex;
+      .order-time {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(23, 26, 29, 0.6);
+        line-height: 26px;
+        margin-left: 8px;
+      }
+    }
+
+    .order-button {
+      width: 74px;
+      height: 36px;
+      font-size: 14px;
+    }
+  }
+  .order-doctor-info-other {
+    border-top: 1px solid rgba(126, 134, 142, 0.16);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    margin-top: 8px;
+    overflow: hidden;
+    .order-doctor-text {
+      display: block;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(23, 26, 29, 0.6);
+      line-height: 22px;
+      margin-bottom: 8px;
+    }
+    .order-operate {
+      overflow: hidden;
+      zoom: 1;
+      margin-top: 20px;
+      .order-time-down {
+        float: left;
+        // padding-top: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #007fff;
+        line-height: 20px;
+      }
+    }
+    .order-status-button {
+      padding-left: 12px;
+      padding-right: 12px;
+      padding: 2px 12px;
+      float: right;
+      font-size: 14px;
+    }
+  }
+}

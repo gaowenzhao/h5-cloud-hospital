@@ -1,0 +1,412 @@
+body {
+  .flex {
+    display: flex;
+  }
+  .flex-sub {
+    flex: 1;
+  }
+  .justify-start {
+    justify-content: flex-start;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .justify-end {
+    justify-content: flex-end;
+  }
+  .align-start {
+    align-items: flex-start;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .align-end {
+    align-items: flex-end;
+  }
+  .flex-direction-column {
+    flex-direction: column;
+  }
+  .flex-direction-row {
+    flex-direction: row;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .flex-shrink {
+    flex-shrink: 0;
+  }
+  @for $i from 0 through 200 {
+    /* padding start */
+    .padding-#{2*$i} {
+      padding: 2px * $i;
+    }
+    .padding-left-#{2*$i} {
+      padding-left: 2px * $i;
+    }
+    .padding-right-#{2*$i} {
+      padding-right: 2px * $i;
+    }
+    .padding-top-#{2*$i} {
+      padding-top: 2px * $i;
+    }
+    .padding-bottom-#{2*$i} {
+      padding-bottom: 2px * $i;
+    }
+    .padding-tb-#{2*$i} {
+      padding-top: 2px * $i;
+      padding-bottom: 2px * $i;
+    }
+    .padding-lr-#{2*$i} {
+      padding-left: 2px * $i;
+      padding-right: 2px * $i;
+    }
+    /* padding end */
+
+    .top-#{2*$i} {
+      top: 2px * $i;
+    }
+    .bottom-#{2*$i} {
+      bottom: 2px * $i;
+    }
+    .left-#{2*$i} {
+      left: 2px * $i;
+    }
+    .right-#{2*$i} {
+      right: 2px * $i;
+    }
+
+    /* margin start */
+    .margin-#{2*$i} {
+      margin: 2px * $i;
+    }
+    .margin-left-#{2*$i} {
+      margin-left: 2px * $i;
+    }
+    .margin-right-#{2*$i} {
+      margin-right: 2px * $i;
+    }
+    .margin-top-#{2*$i} {
+      margin-top: 2px * $i;
+    }
+    .margin-bottom-#{2*$i} {
+      margin-bottom: 2px * $i;
+    }
+    .margin-tb-#{2*$i} {
+      margin-top: 2px * $i;
+      margin-bottom: 2px * $i;
+    }
+    .margin-lr-#{2*$i} {
+      margin-left: 2px * $i;
+      margin-right: 2px * $i;
+    }
+    /* margin end */
+    /* font-size start */
+    .font-size-#{$i} {
+      font-size: 1px * $i;
+    }
+    /* font-size end */
+    /* height start */
+    .height-#{2*$i} {
+      height: 2px * $i;
+    }
+    .height-#{2*$i}vh {
+      height: 2vh * $i;
+    }
+    @if $i == 0 {
+      .height-1 {
+        height: 1px;
+      }
+      .height-auto {
+        height: auto !important;
+      }
+    }
+    /* height end */
+    /* min-height start */
+    .min-height-#{2*$i} {
+      min-height: 2px * $i;
+    }
+    .min-height-#{2*$i}vh {
+      min-height: 2vh * $i;
+    }
+    /* min-height end */
+    /* line-height start */
+    .line-height-#{2*$i} {
+      line-height: 2px * $i;
+    }
+    /* line-height end */
+    /* width start */
+    .width-#{2*$i} {
+      width: 2px * $i;
+    }
+    .width-#{2*$i}vw {
+      width: 2vw * $i;
+    }
+    .width-#{2*$i}per {
+      width: 2% * $i;
+    }
+    /* width end */
+    /* min-width start */
+    .min-width-#{2*$i}vw {
+      min-width: 2vw * $i;
+    }
+    /* min-width end */
+    /* border-radius start */
+    .border-radius-#{2*$i} {
+      border-radius: 2px * $i;
+    }
+    .border-radius-t-#{2*$i} {
+      border-top-left-radius: 2px * $i;
+      border-top-right-radius: 2px * $i;
+    }
+    .border-radius-tl-#{2*$i} {
+      border-top-left-radius: 2px * $i;
+    }
+    .border-radius-tr-#{2*$i} {
+      border-top-right-radius: 2px * $i;
+    }
+    .border-radius-b-#{2*$i} {
+      border-bottom-right-radius: 2px * $i;
+      border-bottom-left-radius: 2px * $i;
+    }
+    .border-radius-br-#{2*$i} {
+      border-bottom-right-radius: 2px * $i;
+    }
+    .border-radius-bl-#{2*$i} {
+      border-bottom-left-radius: 2px * $i;
+    }
+    .border-radius_#{2*$i} {
+      border-radius: 2% * $i;
+    }
+    /* border-radius end */
+
+    .position-top-#{2*$i} {
+      top: 2px * $i;
+    }
+    .position-right-#{2*$i} {
+      right: 2px * $i;
+    }
+    .position-bottom-#{2*$i} {
+      bottom: 2px * $i;
+    }
+    .position-left-#{2*$i} {
+      left: 2px * $i;
+    }
+  }
+  /* text-align start */
+  .text-align-left {
+    text-align: left;
+  }
+  .text-align-center {
+    text-align: center;
+  }
+  .text-align-right {
+    text-align: right;
+  }
+  /* text-align end */
+  .font-bold {
+    font-weight: bolder;
+  }
+  .display-block {
+    display: block;
+  }
+  .display-inline-block {
+    display: inline-block;
+  }
+  a {
+    cursor: pointer;
+  }
+  .position-fixed {
+    position: fixed;
+  }
+  .position-relative {
+    position: relative;
+  }
+  .position-absolute {
+    position: absolute;
+  }
+  .position-sticky {
+    position: sticky;
+  }
+
+  .border-box {
+    box-sizing: border-box;
+  }
+  .content-box {
+    box-sizing: content-box;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .overflowY-scroll {
+    overflow-y: scroll;
+  }
+  .overflowY-auto {
+    overflow-y: auto;
+  }
+  .overflowX-scroll {
+    overflow-x: scroll;
+  }
+  .overflowX-auto {
+    overflow-x: auto;
+  }
+  .world-break-all {
+    word-break: break-all;
+  }
+  .nowrap {
+    white-space: nowrap;
+  }
+  // 一行 溢出隐藏
+  .ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .margin-0-auto {
+    margin: 0 auto;
+  }
+  // 平滑滚动
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+  // 这些 在 globals.scss 全局变量里面取 这里手动有点麻烦
+  $colorObj: (
+    "171a1d": $color-171a1d,
+    "f2f2f6": $color-f2f2f6,
+    "ffffff": $color-ffffff,
+    "171a1d99": $color-171a1d99,
+    "7e868e": $color-7e868e,
+    "7e868e29": $color-7e868e29,
+    "7868ee": $color-7868ee,
+    "dddddd": $color-dddddd,
+    "007fff": $color-007fff,
+    "00b042": $color-00b042,
+    "00b0421f": $color-00b0421f,
+    "f6f8fa": $color-f6f8fa,
+    "33afff": $color-33afff,
+    "646566": $color-646566,
+    "333333": $color-333333,
+    "d7d7d7": $color-d7d7d7,
+    "e75353": $color-e75353,
+    "ff5219": $color-ff5219,
+    "f5f5f5": $color-f5f5f5,
+    "ffedd6": $color-ffedd6,
+    "ffc16f": $color-ffc16f,
+    "317ed0": $color-317ed0,
+    "171a1d3d": $color-171a1d3d,
+    "007fff1f": $color-007fff1f,
+    "ff920029": $color-ff920029,
+    "111f2c1f": $color-111f2c1f,
+    "bdc1c4d9": $color-bdc1c4d9,
+    "f2f2f2": $color-f2f2f2,
+    "f53f3f": $color-f53f3f,
+    "c1c1c4": $color-c1c1c4,
+    "b6b6b6": $color-b6b6b6,
+    "f9f9f9": $color-f9f9f9,
+    "e0edfe": $color-e0edfe,
+  );
+  @each $key, $color in $colorObj {
+    .bg-color-#{$key} {
+      background-color: $color;
+    }
+    .color-#{$key} {
+      color: $color;
+    }
+    .border-#{$key} {
+      border: 1px solid $color;
+    }
+    .border-top-#{$key} {
+      border-top: 1px solid $color;
+    }
+    .border-right-#{$key} {
+      border-right: 1px solid $color;
+    }
+    .border-bottom-#{$key} {
+      border-bottom: 1px solid $color;
+    }
+    .border-left-#{$key} {
+      border-left: 1px solid $color;
+    }
+  }
+  @for $i from 1 through 10 {
+    .opacity-#{$i} {
+      opacity: calc($i / 10);
+    }
+    // 溢出 多少行 隐藏
+    .ellipsis-#{$i} {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      word-break: break-all; /*允许在单词内换行,防止有字母时候出问题*/
+      display: -webkit-box; /*将对象作为弹性伸缩盒子模型显示*/
+      -webkit-line-clamp: $i; /*多行在这里修改数字即可*/
+      -webkit-box-orient: vertical; /*从上到下垂直排列子元素*/
+    }
+    .z-index-#{$i * 10} {
+      z-index: $i * 10;
+    }
+
+    // 动画 0 到 1s
+    .transition-all-#{$i} {
+      transition: all calc($i * 0.1) s;
+    }
+  }
+}
+body,
+html {
+  background-color: $color-f2f2f6;
+  color: $color-171a1d;
+  touch-action: manipulation;
+  font-size: 14px;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+em,
+form,
+label,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary,
+audio,
+video {
+  user-select: none;
+}

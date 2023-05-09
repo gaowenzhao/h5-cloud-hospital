@@ -1,0 +1,69 @@
+.inquiry-card {
+  background: #f6f8fa;
+  height: 100%;
+  min-height: 100vh;
+  .nav-bar-title {
+    line-height: 23px;
+    .nav-bar-small-title {
+      font-size: 11px;
+      font-weight: 400;
+      color: #b6b6b6;
+      line-height: 15px;
+    }
+  }
+  .inquiry-card-content {
+    .base-title {
+      padding: 16px;
+      font-size: 17px;
+      font-weight: 600;
+      color: #171a1d;
+      line-height: 17px;
+      border-bottom: 1px solid rgba(126, 134, 142, 0.16);
+      margin-bottom: 16px;
+    }
+    .baseInfo {
+      background: #ffffff;
+      border-radius: 12px;
+      .baseInfo-item {
+        font-size: 17px;
+        font-weight: 400;
+        color: rgba(23, 26, 29, 0.6);
+        line-height: 17px;
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 16px;
+        display: flex;
+      }
+    }
+    .disease-desc {
+      background: #ffffff;
+      border-radius: 12px;
+      margin-top: 16px;
+      .desc {
+        font-size: 17px;
+        font-weight: 400;
+        color: rgba(23, 26, 29, 0.6);
+        line-height: 27px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 16px;
+      }
+    }
+    .image-contain {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      padding-left: 4px;
+      padding-right: 4px;
+      .image-content {
+        width: 25%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

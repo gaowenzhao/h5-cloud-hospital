@@ -1,0 +1,169 @@
+.userinquiry-detail {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #f2f2f6;
+  position: relative;
+  .detail-top {
+    width: 100%;
+    // height: 172px;
+    margin-bottom: 20px;
+    background: linear-gradient(
+      180deg,
+      #ffffff 65%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .icon_success {
+      margin-top: 24px;
+    }
+    .inquiry-status {
+      font-size: 20px;
+      font-family: PingFangSC-Semibold, PingFang SC;
+      font-weight: 600;
+      color: #171a1d;
+      line-height: 28px;
+      margin-top: 12px;
+    }
+    .inquiry-status-desc {
+      font-size: 14px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: #171a1d;
+      line-height: 22px;
+      margin-top: 8px;
+    }
+  }
+  .detail-content {
+    padding-left: 12px;
+    padding-right: 12px;
+    .inquiry-info {
+      background: #ffffff;
+      border-radius: 8px;
+      margin-top: 12px;
+      padding-bottom: 12px;
+      .inquiry-info-label {
+        font-size: 17px;
+        font-weight: 600;
+        color: #171a1d;
+        line-height: 22px;
+        padding: 8px;
+        border-bottom: 1px solid rgba(126, 134, 142, 0.16);
+      }
+      .inquiry-people {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(23, 26, 29, 0.6);
+        line-height: 22px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 12px;
+      }
+      .inquiry-info-detail {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(23, 26, 29, 0.6);
+        line-height: 22px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 12px;
+      }
+      .inquiry-info-detail-more {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; // 控制多行的行数
+        white-space: wrap;
+        -webkit-box-orient: vertical;
+      }
+      .open-all-button {
+        width: 100%;
+        text-align: center;
+        margin-top: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #007fff;
+        line-height: 22px;
+      }
+    }
+    .order-items {
+      background: #ffffff;
+      border-radius: 8px 8px 8px 8px;
+      margin-top: 12px;
+      .order-item {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        position: relative;
+        padding-left: 16px;
+        font-size: 17px;
+        font-weight: 400;
+        color: #171a1d;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        .order-copy {
+          color: #007fff;
+          font-size: 14px;
+          padding: 4px;
+          position: absolute;
+          right: 11px;
+        }
+      }
+      .order-item::after {
+        position: absolute;
+        bottom: 0;
+        width: 321px;
+        content: "";
+        display: block;
+        height: 1px;
+        background: rgba(17, 31, 44, 0.12);
+      }
+      .order-item:last-child::after {
+        position: absolute;
+        bottom: 0;
+        width: 321px;
+        content: "";
+        display: block;
+        height: 1px;
+        background: white;
+      }
+    }
+    .base-title {
+      padding: 16px;
+      font-size: 17px;
+      font-weight: 600;
+      color: #171a1d;
+      line-height: 17px;
+      border-bottom: 1px solid rgba(126, 134, 142, 0.16);
+      margin-bottom: 16px;
+    }
+    .image-contain {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      padding-left: 4px;
+      padding-right: 4px;
+      .image-content {
+        width: 25%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .fix-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 40px;
+    padding-top: 12px;
+    box-sizing: border-box;
+  }
+}
